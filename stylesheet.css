@@ -1,0 +1,181 @@
+html {
+  font-family: Roman;
+  background-color: rgb(2, 2, 2);
+}
+
+h1, p {
+  color: rgba(218, 224, 234, 1);
+}
+
+body {
+  margin: 0 auto;
+}
+
+header {
+  position: fixed;
+  margin: 0 auto;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(2, 2, 2);
+  z-index: 3;
+}
+
+
+ul {
+  margin: 15px; 20px;
+  }
+
+  li {
+  display: inline;
+  width: 70px;
+  margin: 20px auto;
+  padding: 40px 93px;
+  text-align: center;
+  text-transform: uppercase;
+  }
+
+  a {
+  text-decoration: none;
+  color: rgba(218, 224, 234, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  }
+
+  a:hover {
+    background-color: rgba(66, 244, 217, 0.75);
+  }
+
+  footer {
+    width: 100%;
+    background-color: rgb(2,2,2);
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    height: 65px;
+    box-sizing: border-box;
+    /* border: solid;
+    border-width: 10px;
+    border-color: red; */
+  }
+
+  footer li {
+      text-align: center;
+      padding: 0 175px;
+      text-transform: lowercase;
+      width: 80px;
+      margin: 25px auto 0 auto;
+      height: 40px;
+  }
+
+  .Luna {
+    text-align: left;
+  }
+
+.geitjes {
+  background-color: rgb(73, 73, 73);
+  position: relative;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  top: 50px;
+  border: solid;
+  border-width: 1px;
+  z-index: 2;
+  }
+
+  .geitjes-2 {
+    background-color: rgb(73, 73, 73);
+    position: relative;
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    border: solid;
+    border-width: 1px;
+    z-index: 2;
+    }
+
+.foto {
+  background-image: url("http://assets.carbonbrief.org/wp-content/uploads/2015/08/stock-forest-wood-england-UK-1550x804.jpg");
+  position: relative;
+  width: 100%;
+  height: 804px;
+  top: 25px;
+  text-align: center;
+  font-size: 45px;
+  <!-- paralax -->
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .foto-2 {
+    background-image: url("https://www.pwc.com/ca/en/forest-paper-packaging/assets/20170301-293579_FPP_hero_1600x900.jpg");
+    position: relative;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    font-size: 45px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .foto-3 {
+    background-image: url("http://www.knoxmercury.com/wp-content/uploads/2015/07/MG_2681-web.jpg");
+    position: relative;
+    width: 100%;
+    height: 804px;
+    text-align: center;
+    font-size: 45px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .foto-4 {
+    background-image: url("justin-bieber-1.jpg");
+    position: relative;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    font-size: 45px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #klein {
+    color: rgba(218, 224, 234, 1);
+    font-size: 30px;
+  }
+
+  #kleiner {
+    color: rgba(218, 224, 234, 1);
+    font-size: 20px;
+  }
+
+  #kleinst {
+    color: rgba(218, 224, 234, 1);
+    font-size: 15px;
+  }
+
+  #blok {
+    box-sizing: border-box;
+    border-color: gray;
+    border-width: 5px;
+    border-style: solid;
+    margin: auto 400px;
+  }
+
+  #blok:hover{
+    background-color: rgba(117, 126, 140, 0.75);
+  }
