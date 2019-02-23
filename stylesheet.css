@@ -19,7 +19,9 @@ header {
   background-color: rgb(2, 2, 2);
   z-index: 3;
 }
-
+#uitkomst { 
+  color: white;
+}
 
 ul {
   margin: 15px; 20px;
